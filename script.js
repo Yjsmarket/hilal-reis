@@ -1,5 +1,5 @@
 /* =========================================================
-   Al Hilal Reizen — script.js
+   Reisbureau — script.js
    ========================================================= */
 
 /* ---- CONFIGURATIE: pas hier je WhatsApp-nummer aan ----
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const pers = (document.getElementById("f-personen").value || "").trim();
       const bericht = (document.getElementById("f-bericht").value || "").trim();
 
-      let msg = "Hallo Al Hilal Reizen! Ik wil graag een reis aanvragen.\n\n";
+      let msg = "Hallo! Ik wil graag een reis aanvragen.\n\n";
       if (naam)    msg += `• Naam: ${naam}\n`;
       if (best)    msg += `• Bestemming: ${best}\n`;
       if (datum)   msg += `• Vertrekdatum: ${datum}\n`;
